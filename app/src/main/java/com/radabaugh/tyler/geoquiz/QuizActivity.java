@@ -62,11 +62,10 @@ public class QuizActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (mCurrentIndex <= 0) {
                     mCurrentIndex = mQuestionBank.length - 1;
-                    updateQuestion();
                 } else {
                     mCurrentIndex--;
-                    updateQuestion();
                 }
+                updateQuestion();
             }
         });
 
