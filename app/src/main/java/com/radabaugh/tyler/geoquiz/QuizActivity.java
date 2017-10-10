@@ -80,7 +80,7 @@ public class QuizActivity extends AppCompatActivity {
         });
 
         updateQuestion();
-    }5
+    }
 
     @Override
     public void onStart() {
