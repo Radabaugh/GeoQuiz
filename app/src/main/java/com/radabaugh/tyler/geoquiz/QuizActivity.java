@@ -107,7 +107,6 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     private void updateQuestion() {
-        Log.d(TAG, "Updating question text", new Exception());
         int question = mQuestionBank[mCurrentIndex].getTextResId();
         mQuestionTextView.setText(question);
     }
